@@ -1,7 +1,3 @@
-# Copyright (c) Nanjing University, Vision Lab.
-# Jianqiang Wang (wangjq@smail.nju.edu.cn), Hao Zhu, Zhan Ma, Tong Chen, Haojie Liu, Qiu Shen; Nanjing University, Vision Lab.
-# Chaofei Wang; Shanghai Jiao Tong University, Cooperative Medianet Innovation Center.
-# Last update: 2019.09.29
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function

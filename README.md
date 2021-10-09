@@ -4,6 +4,7 @@ Deep-PCAC: An End-to-End Deep Lossy Compression Framework for Point Cloud Attrib
 
 ## Requirments
 Tensorflow-gpu 1.13.1
+
 open3d
 
 ##Pre-trained models are stored in ./models

@@ -7,9 +7,10 @@ Tensorflow-gpu 1.13.1
 
 open3d
 
-## We trained four models with four different latent_points (latent_points=256,200,128,64). You can modify the latent_points to change the rate.
+## Pre-trained models
+We trained four models with four different latent_points (latent_points=256,200,128,64). You can modify the latent_points to change the rate.
 
-## Pre-trained models are stored in /model/256, /model/200, /model/128, /model/64. Please modify the "checkpoint" file in these folders and change the absolute path to find the ckpt.
+Pre-trained models are stored in /model/256, /model/200, /model/128, /model/64. Please modify the "checkpoint" file in these folders and change the absolute path to find the ckpt.
 
 ## Encoding
 python mycodec.py compress --input="./testdata/soldier_vox10_0690.ply" --ckpt_dir='./model/256/' --latent_points=256

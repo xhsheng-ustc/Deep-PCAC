@@ -17,3 +17,6 @@ python mycodec.py compress --input="./testdata/soldier_vox10_0690.ply" --ckpt_di
 ## Decoding
 python mycodec.py decompress --input="./testdata/soldier_vox10_0690" --ckpt_dir='./model/256/' --latent_points=256
 
+## Note
+If you have any questions, please contact me (xhsheng@mail.ustc.edu.cn). I will try my best to solve your concerns. More details will be released when I finish my intern.
+

@@ -16,7 +16,7 @@ python 3.6
 ## Pre-trained models
 We trained four models with four different latent_points (latent_points=256,200,128,64). You can modify the latent_points to change the rate.
 
-Pre-trained models are stored in /model/256, /model/200, /model/128, /model/64. Please modify the "checkpoint" file in these folders and change the absolute path to find the ckpt.
+Pre-trained models are stored in /model/256, /model/200, /model/128, /model/64. Please modify the "checkpoint" file in these folders and change the absolute path to find the ckpt. (I have midify the path of "checkpoint" file, you can directly run them. If you have some problems about the path, please modify the path in "checkpoint" file)
 
 ## Docker
 

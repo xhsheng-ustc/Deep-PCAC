@@ -9,6 +9,9 @@ open3d
 
 nvidia-docker2
 
+cuda10.0
+
+python 3.6
 ## Docker
 
 I have built a docker to aviod setting up the environment.

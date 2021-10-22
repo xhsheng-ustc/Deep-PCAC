@@ -8,7 +8,9 @@ tensorflow-gpu 1.13.1
 open3d
 
 nvidia-docker2
+
 ##Docker
+
 I have built a docker to aviod setting up the environment.
 You can pull the docker frome dockerhub.
 

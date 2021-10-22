@@ -12,6 +12,12 @@ nvidia-docker2
 cuda10.0
 
 python 3.6
+
+## Pre-trained models
+We trained four models with four different latent_points (latent_points=256,200,128,64). You can modify the latent_points to change the rate.
+
+Pre-trained models are stored in /model/256, /model/200, /model/128, /model/64. Please modify the "checkpoint" file in these folders and change the absolute path to find the ckpt.
+
 ## Docker
 
 I have built a docker to aviod setting up the environment.
@@ -25,12 +31,7 @@ Then you need to run the nvidia-docker and mount the local directory using the f
 
 sudo nvidia-docker run -v /home/Deep-PCAC-main/:/media/deep-pcac -it xhsheng/deep_pcac:latest
 
-After entering the container, you can run the code using the following command.
-
-## Pre-trained models
-We trained four models with four different latent_points (latent_points=256,200,128,64). You can modify the latent_points to change the rate.
-
-Pre-trained models are stored in /model/256, /model/200, /model/128, /model/64. Please modify the "checkpoint" file in these folders and change the absolute path to find the ckpt.
+After entering the container, you can run the code using the following commands.
 
 ## Encoding
 python mycodec.py compress --input="./testdata/soldier_vox10_0690.ply" --ckpt_dir='./model/256/' --latent_points=256
